@@ -3,6 +3,11 @@ __pycache__/
 *.py[cod]
 *$py.class
 
+# Project specific
+20*.mp4
+images/touchbuttons_assets/*
+*.osp
+
 # C extensions
 *.so
 
