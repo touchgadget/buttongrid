@@ -57,7 +57,7 @@ else:
 #Create a display surface object
 DISPLAYSURF = pygame.display.set_mode((0, 0), pygame.FULLSCREEN)
 (screen_width, screen_height) = DISPLAYSURF.get_size()
-
+pygame.mouse.set_visible(False)
 
 buttonOnColor = GridDef.get("buttonOnColor")
 if buttonOnColor == None:
